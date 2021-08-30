@@ -22,12 +22,14 @@
       font-size: 19px;
       color: #333;
       text-align: center;
+      background: #ff66ca;
+      padding-top: 0;
+      margin: 0;
     }
 
     @media (prefers-color-scheme: dark) {
       body {
         color: #fff;
-        background: #000;
       }
     }
 
@@ -64,15 +66,23 @@
     }
 
     main {
+      background: #fff;
       display: block;
-      margin: 0 1em;
+      padding: 1em;
+      margin: 1em;
       text-align: left;
     }
 
     @media (min-width: 959px) {
       main {
         width: 960px;
-        margin: 0 auto 2em;
+        margin: 1em auto 2em;
+      }
+    }
+
+    @media (prefers-color-scheme: dark) {
+      main {
+        background: #000;
       }
     }
 
@@ -100,7 +110,7 @@
       My work
     </h2>
     <p class="info">
-    I write, review and edit content.
+    I write, review and edit content. I've been doing it for 20 years.
     </p>
     <p class="info">
     I ❤️ plain English and making complicated things easier to understand.
@@ -124,7 +134,7 @@
       Other things about me
     </h2>
     <p class="info">
-      I like running and walking. I walked round Europe once. It's on <a href="https://trexit.org.uk/">Trexit</a>.
+      I like running and walking. I walked round Europe once. It's on <a href="https://trexit.org.uk/about/">Trexit</a>.
     </p>
     <p class="info">
     I help out in adult literacy classes once a week. I wrote a <a href="https://gds.blog.gov.uk/2016/02/23/writing-content-for-everyone/">blog post about how it helps me write more accessible content</a>.
