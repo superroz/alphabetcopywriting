@@ -110,7 +110,8 @@ main {
   margin: 0 0 1.5em;
 }
 
-.list-bulleted {
+.list-bulleted,
+.list-numbered {
   margin-top: 0;
   margin-bottom: 1.5em;
 }
