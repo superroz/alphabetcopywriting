@@ -82,6 +82,19 @@ main {
   margin: 1.18em 0 0.79em;
 }
 
+.subheading__context {
+  font-size: 27px;
+  font-weight: normal;
+  color: #813b93;
+  display: block;
+}
+
+@media (prefers-color-scheme: dark) {
+  .subheading__context {
+    color: #bb5bd4;
+  }
+}
+
 .bodyheading {
   font-size: 24px;
   margin: 0.75em 0 0.25em;
