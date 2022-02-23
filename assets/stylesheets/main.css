@@ -101,13 +101,26 @@ main {
 }
 
 .info,
+.note,
 .list-bulleted {
   line-height: 1.5;
   max-width: 38em;
 }
 
-.info {
+.info,
+.note {
   margin: 0 0 1.5em;
+}
+
+.note {
+  border-left: 5px solid #813b93;
+  padding-left: 0.75em;
+}
+
+@media (prefers-color-scheme: dark) {
+  .note {
+    border-color: #bb5bd4;
+  }
 }
 
 .list-bulleted,
